@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condiciones</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Ejercicio 1 -->
+    <h2>Agregar/Quitar borde</h2>
+    <div class="container-border">
+        <img id="imgPelota" src="assets/img/pelota.jpg" alt=".." onclick="clickear()">
+    </div>
+
+    <!-- Ejercicio 2 -->
+    <h2>Añadir/Quitar stickers</h2>
+    <div class="container-stickers">
+        <div class="sticker">
+            <img src="assets/img/sticker-1.jpg" alt="..">
+            <input class="stickers-inputs" id="sticker1" type="number" min="0" value="0">
+        </div>
+
+        <div class="sticker">
+            <img src="assets/img/sticker-2.jpg" alt="..">
+            <input class="stickers-inputs" id="sticker2" type="number" min="0" value="0">
+        </div>
+
+        <div class="sticker">
+            <img src="assets/img/sticker-3.jpg" alt="..">
+            <input class="stickers-inputs" id="sticker3" type="number" min="0" value="0">
+        </div>
+    </div>
+
+    <div class="cont-text-btn">
+        <p id="phrase"></p>
+        <button class="btn-custom" onclick="verificar()">Verificar</button>  
+    </div>
+
+    <!-- Ejercicio 3 -->
+    <h2>Ingresa el password</h2>
+    <div class="container-password">
+        <select class="password-selects" name="select1" id="select1">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+
+        <select class="password-selects" name="select2" id="select2">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+
+        <select class="password-selects" name="select3" id="select3">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+    </div>
+
+    <div class="cont-text-btn">
+        <p id="password"></p>
+        <button class="btn-custom" onclick="ingresar()">Ingresar</button>  
+    </div>
+        
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

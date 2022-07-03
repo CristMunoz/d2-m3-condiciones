@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 24px;
+    text-align: center;
+    margin: 25px auto;
+}
+
+/* Ejercicio 1 */
+.container-border{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.container-border img{
+    width: 250px;
+    height: 250px;
+    margin: 5px auto;
+}
+
+/* Ejercicio 2 */
+.container-stickers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sticker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    gap: 10px; 
+}
+
+.sticker img{
+    width: 200px;
+    height: 200px;
+}
+
+.stickers-inputs{
+    width: 75px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.cont-text-btn{
+    display: flex;
+    flex-direction: column;
+}
+
+#phrase{
+    text-align: center;
+    margin: 15px 0 5px 0;
+    font-weight: bold;
+}
+
+.btn-custom{
+    background-color: rgb(74, 74, 111);
+    color: wheat;
+    padding: 10px;
+    margin: 10px auto 20px auto;
+    text-align: center;
+    border: none;
+}
+
+.btn-custom:hover{
+    background-color: rgb(94, 94, 141);
+}
+
+.btn-custom:active{
+    background-color: rgb(122, 122, 189);
+}
+
+/* Ejercicio 3 */
+.container-password{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.password-selects{
+    width: 75px;
+    text-align: center;
+    border: 1px solid gray;
+    margin: 0 5px;
+}
+
+#password{
+    text-align: center;
+    margin: 15px 0 5px 0;
+    font-weight: bold;
+}
